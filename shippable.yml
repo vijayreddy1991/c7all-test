@@ -12,5 +12,7 @@ build:
    
  ci:
      - psql --version
-     - cd /tmp     
+     - pwd
+     - cd /tmp
+     - pwd
     
