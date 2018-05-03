@@ -11,4 +11,6 @@ build:
    pull: true
    
  ci:
+     - psql --version
+     
     
