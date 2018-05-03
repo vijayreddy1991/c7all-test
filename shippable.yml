@@ -13,4 +13,3 @@ build:
  ci:
      - psql --version
      - cd /tmp
-     - echo SHIPPABLE_POSTGRES_BINARY=$SHIPPABLE_POSTGRES_BINARY
