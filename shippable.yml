@@ -1,0 +1,14 @@
+language: none
+
+services:
+  - postgres
+
+
+build:
+ pre_ci_boot:
+   image_name: drydock/c7all
+   image_tag: master
+   pull: true
+   
+ ci:
+    - psql --version
