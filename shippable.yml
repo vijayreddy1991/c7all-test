@@ -12,5 +12,5 @@ build:
    
  ci:
      - psql --version
-     
+     - cd /tmp     
     
